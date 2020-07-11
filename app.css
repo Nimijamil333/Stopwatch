@@ -1,0 +1,49 @@
+.a{
+    
+    display: inline-block;
+    height: 50px;
+    width: 60px;
+    margin: 0%;
+    background-color:rgb(236, 65, 65);
+    border-radius: 5px;
+    color: blanchedalmond;
+    text-align: center;
+    margin-right: auto;
+    margin-top: auto;
+    
+}
+.main{
+    position: absolute;
+    left: 40%;
+    right: 20%;
+    top:50%;
+}
+#b{
+    margin-right: 5%;
+    margin-top: 10%;
+    padding:auto;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+}
+.c{
+    
+    display: inline-block;
+    height: 50px;
+    width: 10px;
+    color:rgb(236, 65, 65);
+    text-align: center;
+    
+    
+}
+@media only screen and (max-width:818px) {
+    /* For mobile phones: */
+     [class="a"] {
+      width:30%;
+      height: 20%;
+      display:inline-block;
+
+
+    }
+
+  } 

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch    </title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="all.min.css">
+
+</head>
+<body>
+
+    <div class="sticky-top">
+        <div class="p-3 mb-2 bg-danger text-white"><center><h1 >StopWatch</h1></center></div>
+    </div> 
+ <div class="main">    <div class="time">
+    <h2 class="a" id="min" style="margin-right: 5%;">0</h2>
+    <h1 class="c">:</h1>
+    <h2  class="a" id="sec" style="margin-right: 5%;">0</h2>
+    <h1 class="c">:</h1>
+    <h2 class="a" id="ms" style="margin-right: 5%;">0</h2>
+    
+    </div>
+    <div>
+        <button  class="startbtn" id="b" onclick="start() ;this.onclick = null;this.setAttribute('style', 'color: #ccc');" this.onclick = null ><i class="fas fa-play"></i></button>
+        <button id="b" onclick="stop()"><i class="fas fa-pause"></i></button>
+        <button id="b" onclick="reset()"><i class="fas fa-power-off"></i></button>
+    </div>
+</div>
+
+
+ <script src="app.js"></script>   
+</body>
+</html>
